@@ -59,8 +59,15 @@ button {
     padding: 8px 10px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 form {
     max-width: 300px;
+}
+
+button:hover {
+    opacity: .9;
+    transition: all 0s;
+    
 }
